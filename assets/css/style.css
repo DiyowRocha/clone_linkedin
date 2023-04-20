@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Header*/
+.header{
+    margin: 0 auto;
+}
+
+/*Content Header*/
+.content-header{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+
+/*Logotipo*/
+.logotipo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0a66c2;
+}
+
+.logotipo h2{
+    font-size: 30px;
+}
+
+.logotipo i{
+    font-size: 36px;
+    margin-left: 5px;
+}
+
+/*Navigation*/
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*List Itens*/
+.list-itens li{
+    display: inline-block;
+}
+
+/*Content List Item*/
+.content-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #666;
+}
+
+.content-list-item:hover{
+    color: #000;
+}
+
+.content-list-item i{
+    width: 100%;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 2.5px;
+}
+
+.content-list-item p{
+    font-size: 14px;
+}
+
+/*Bar*/
+.bar{
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 40px;
+    border: 1px solid #666;
+}
+
+/*Buttons*/
+.cadastro{
+    width: 170px;
+    border-radius: 20px;
+    padding: 12.5px 0;
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    color: #666;
+    font-weight: bold;
+}
+
+.cadastro:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    color: #333;
+}
+
+.login{
+    width: 90px;
+    border-radius: 25px;
+    padding: 15px 0;
+    background-color: #fff;
+    border: 1px solid #0a66c2;
+    font-size: 15px;
+    color: #0a66c2;
+}
+
+.login:hover{
+    cursor: pointer;
+    background-color: #0a66c221;
+    color: #06498d;
+}
